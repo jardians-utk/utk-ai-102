@@ -1,18 +1,33 @@
 #### AI 102 – Natural Language-Based Programming Techniques Repository
 
-Welcome to the official repository for **AI 102 – Natural Language-Based Programming Techniques**, a course designed specifically for students at the University of Tennessee at Knoxville
+Welcome to the repository for **AI 102 – Natural Language-Based Programming Techniques**, a course offered at the University of Tennessee, Knoxville, through the **College of Emerging and Collaborative Studies (CECS)** (https://cecs.utk.edu/).
 
-#### Course Overview
+#### About the Course
 
-This course invites you to **explore the rapidly evolving field of Natural Language Processing (NLP)**, where computer science, linguistics, and artificial intelligence converge to enable machines to understand, interpret, and generate human language . Through a blend of theory and hands-on programming, you’ll discover how computational methods can be used to manipulate and analyze text, unlocking the potential of human language for a wide range of applications.
+AI 102 is designed for students in the CECS who are eager to explore the cutting edge of artificial intelligence and data science. This course provides a hands-on introduction to the **dynamic world of Natural Language Processing (NLP)**—the field at the intersection of computer science, linguistics, and artificial intelligence that enables computers to understand and work with human language .
 
-#### What You’ll Learn
+#### What You Will Learn
 
-- **Fundamental Concepts:** Gain a solid foundation in NLP, learning how algorithms process and interpret language data in both written and spoken forms.
-- **String Processing & Text Normalization:** Master essential techniques for preparing and cleaning text, including basic string operations and normalization methods.
-- **Tokenization, Stemming, and Lemmatization:** Delve into the core processes that break down text into meaningful units, reduce words to their base forms, and standardize language for further analysis.
-- **Practical Applications:** Apply your skills to real-world problems such as building chatbots, performing sentiment analysis, and developing tools for language translation and summarization.
+Throughout this course, you will:
 
-#### Why Take This Course?
+- **Discover the Foundations of NLP:** Understand how computers process, analyze, and generate human language, both written and spoken.
+- **Master Core Programming Techniques:** Learn essential skills such as basic string processing and text normalization, which are crucial for preparing raw language data for analysis.
+- **Dive into Key NLP Methods:** Explore tokenization (breaking text into words or sentences), stemming (reducing words to their root forms), and lemmatization (converting words to their dictionary base forms).
+- **Apply Computational Methods:** Gain practical experience manipulating and interpreting language data using modern programming tools and libraries.
+- **Prepare for Real-World Applications:** Build a foundation for advanced topics such as sentiment analysis, chatbots, and language translation, setting you up for success in both academic research and industry roles.
 
-As NLP continues to be one of the most widely applied areas of machine learning, the demand for professionals who can build and deploy language-based AI systems is growing rapidly . By the end of this course, you’ll be equipped with the knowledge and practical experience needed to tackle challenges at the intersection of language and technology.
+#### Why Study at CECS?
+
+The College of Emerging and Collaborative Studies at UT Knoxville empowers students to forge their own paths in innovative fields like AI, data science, and cybersecurity. With a focus on hands-on learning and industry partnerships, CECS prepares you for the careers of tomorrow by providing both technical expertise and collaborative experience .
+
+#### Folders Structure
+
+This repository contains all course materials: assignments, data, demos, reading, project , and environment setup that you’ll need to succeed in AI-102. Follow the provided workflow to complete labs, submit projects, and collaborate with your peers as you develop your skills in natural language-based programming.
+
+#### Instructor information 
+Dr. Jimmy Ardiansyah
+Assistant Professor
+College of Emerging and Collaborative Studies (CECS)
+jardians@tennessee.edu | 615) 571-0046
+
+
