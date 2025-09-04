@@ -1,4 +1,4 @@
-#### AI 102 – Natural Language-Based Programming Techniques Repository
+#### AI 102 – Natural Language-Based Programming Techniques
 
 Welcome to the repository for **AI 102 – Natural Language-Based Programming Techniques**, a course offered at the University of Tennessee, Knoxville, through the **College of Emerging and Collaborative Studies (CECS)** (https://cecs.utk.edu/).
 
@@ -24,10 +24,10 @@ The College of Emerging and Collaborative Studies at UT Knoxville empowers stude
 
 This repository contains all course materials: assignments, data, demos, reading, project , and environment setup that you’ll need to succeed in AI-102. Follow the provided workflow to complete labs, submit projects, and collaborate with your peers as you develop your skills in natural language-based programming.
 
-#### Instructor information 
-Dr. Jimmy Ardiansyah
-Assistant Professor
-College of Emerging and Collaborative Studies (CECS)
-jardians@tennessee.edu | 615) 571-0046
 
-
+**Dr. Jimmy Ardiansyah**  
+Assistant Professor  
+College of Emerging and Collaborative Studies (CECS)  
+University of Tennessee, Knoxville  
+Email: jardians@tennessee.edu  
+Phone: (615) 571-0046
