@@ -1,7 +1,6 @@
 # Module 01- Intoduction to Text Processing in Python
 ## Topics Covered:
-- String in Python
-- The String Data Type in Python
+- String Data Type in Python
 - Processing Text Files in Python
 - Processing PDF Files in Python
 - Regular Expressions in Python
@@ -570,3 +569,4 @@ else:
 *   **Combine Your Skills!** Remember how you extracted text from a PDF? Now you can use regex to search for patterns *inside* that extracted text.
 
 Regex might feel like a puzzle at first, but it’s a skill that will make you a much more effective programmer. Give these examples a try—what's the first pattern you're going to hunt for?
+
