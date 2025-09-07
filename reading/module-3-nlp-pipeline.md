@@ -55,7 +55,7 @@ Now, let's dive deeper into each of these stages and look at some concrete examp
 ___
 
 
-###  1. Data Acquisition 
+##  1. Data Acquisition 
 
 Data is the heart and soul of any Machine Learning (ML) system.  In the real world, getting the right data is often the biggest hurdle you'll face in a project. Let's break down how you can gather the data you need to get your NLP project off the ground.
 
@@ -116,11 +116,8 @@ For any of these techniques to work well, you need to start with a clean, high-q
 
 Once you've gathered and generated all the data you need, you're ready for the next step: **Text Cleaning**.
 __
-Of course! Here is that text rewritten to be clearer and more engaging for a college student audience, with all external references removed.
 
-***
-
-###  2: Text Extraction and Cleanup
+##  2: Text Extraction and Cleanup
 
 Before you can do any of the cool stuff in NLP, you have to get your hands on clean, usable text. This step, called **text extraction and cleanup**, is all about pulling the raw text out of its original source and stripping away all the junk—like HTML code, ads, metadata, or weird formatting.
 
@@ -234,7 +231,7 @@ While text extraction and cleanup might feel like a chore, these examples show h
 ___
 
 
-### **3. Pre-Processing
+## 3. Pre-Processing
 
 You might be thinking, "Wait, didn't we just clean the text? Why is there another step?"
 
@@ -252,8 +249,6 @@ Here are the common stages of pre-processing, from the basics to the more advanc
 *   **Advanced Tools:** Part-of-speech tagging, parsing, and more for when you need a deeper linguistic understanding.
 
 Let's break down what each of these means.
-
----
 
 ### The Basics: Sentence and Word Splitting
 
@@ -296,8 +291,6 @@ For the first sentence, the output would be a list of tokens:
 Notice how the period is now its own separate token.
 
 **Heads-Up:** These tools aren't perfect. A standard tokenizer might split "O'Neil" into three tokens (`O`, `'`, `Neil`) or separate a hashtag from its text (`#`, `topic`). For special cases like social media, you might need a specialized tokenizer (like NLTK's `TweetTokenizer`).
-
----
 
 ### The Standard Toolkit: Common Cleanup Tasks
 
@@ -359,8 +352,6 @@ print(lemmatizer.lemmatize("better", pos="a"))
 
 **Important Note:** The order matters! You typically lowercase *before* stemming, but you *don't* want to remove words or lowercase *before* lemmatization, as it needs the full sentence context to work correctly.
 
----
-
 ### Handling Tricky Text
 
 Sometimes, you'll encounter text that needs special handling.
@@ -370,8 +361,6 @@ Sometimes, you'll encounter text that needs special handling.
 *   **Language Detection:** If you're scraping product reviews from the web, you'll likely get reviews in different languages. Since most NLP tools are language-specific, your first step should be to detect the language of each review so you can route it to the correct pipeline.
 
 *   **Code-Mixing and Transliteration:** In many communities, people mix multiple languages in a single sentence (e.g., "Singlish" in Singapore, which blends English, Tamil, Malay, and Chinese variants). This is called **code-mixing**. When they type words from another language using English characters, it's called **transliteration**. Handling this requires specialized techniques.
-
----
 
 ### Advanced Tools: For Deeper Understanding
 
@@ -400,7 +389,7 @@ for token in doc:
 ___
 
 
-### **4. Feature Engineering**
+## 4. Feature Engineering
 
 So far, we've cleaned our text and pre-processed it into nice, neat tokens. But there's still a big problem: machine learning algorithms don't understand words like "awesome" or "terrible." They understand **math**.
 
@@ -455,7 +444,7 @@ Now, let's move on to the next step in the pipeline: **Modeling**.
 
 ___
 
-### 5: Modeling 
+## 5: Modeling 
 
 You've gathered your data, cleaned it up, and turned it into numbers your computer can understand. Now for the exciting part: **Modeling**. This is where you actually build the "brain" that will make predictions, classify text, or generate responses.
 
@@ -521,7 +510,7 @@ By understanding these different modeling strategies, you can choose the right p
 ___
 
 
-### **6: Evaluation**
+## 6. Evaluation
 
 You've built a model. You've fed it data. It's making predictions. Now for the most important question: **Is it any good?**
 
@@ -590,10 +579,7 @@ Because extrinsic evaluation is expensive and involves real users. The intrinsic
 With your model built and evaluated, you're ready to think about the final steps: getting it out into the world.
 ___
 
-
-You've built your model, tested it, and you're happy with its performance. Congratulations! But the journey isn't over yet. Now it's time for the "post-modeling" phases, where you take your project from a file on your computer to a real-world tool that people can actually use.
-
-### **7: Deployment**
+##  7. Deployment
 
 In the real world, your NLP model is almost always just one piece of a much larger puzzle. Your spam filter is part of an email application; your sentiment analyzer is part of a social media dashboard. **Deployment** is the process of taking your finished model and plugging it into that larger system so it can start doing its job.
 
@@ -607,7 +593,7 @@ This involves a few key things:
 
 ---
 
-### **8: Monitoring**
+## 8. Monitoring & Model Updating
 
 Just like any piece of software, you can't just launch your model and walk away. You have to **monitor** it constantly to make sure it's still working correctly.
 
@@ -618,10 +604,7 @@ However, monitoring an NLP model is different from just checking if a regular ap
 
 If you're automatically retraining your model on new data, monitoring is even more critical to ensure that the new versions are behaving as expected and not learning bad habits.
 
----
-
-### **9: Model Updating**
-
+#### **Model Updating**
 Models get "stale" over time. As you monitor your model and gather new data from real users, you'll eventually need to **update** it to keep it current. This usually means retraining your model on a combination of the original data plus all the new data you've collected.
 
 Think of it like updating the software on your phone—you do it to get new features, fix bugs, and adapt to new security threats. Updating your model is the same idea: you're adapting it to the ever-changing world of language.
